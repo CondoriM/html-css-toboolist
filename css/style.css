@@ -1,0 +1,40 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --header-color: #f7f8fa;
+    --global-color: #FFFFFF;
+    --bg-body-color: #F6F8F9;
+    --add-task-color: #14AAF5;
+    --add-section-text-color: #CFD5D9;
+    --title-section-color: #4A4F58;
+    --button-editorial-color: #09A9ED;
+    --button-q1-goal-color: #AB5DE6;
+    --button-recruiting-color: #2CC6AB;
+    --button-mobile-color: #FF9B00;
+    --button-website-color: #EC4A9D;
+    --button-sales-color: #A3D116;
+    --flag-false-color: #FF3535;
+    --flag-true-color: #30C7AD;
+}
+
+/*header style*/
+
+#site_header{
+    width: 100%;
+    height: 160px;
+    background-color: var(--header-color);
+}
+
+.logo{
+    width: 10rem;
+}
+
+#logo_text{
+    display: inline-block;
+    font-size: 3rem;
+    line-height: 160px;
+}
