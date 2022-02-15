@@ -5,7 +5,6 @@
 }
 
 :root{
-    --bg-body-color: #Ffffff;
     --add-task-color: #14AAF5;
     --add-section-color: #e9e9e9;
     --title-section-color: #4A4F58;
@@ -30,7 +29,8 @@ body{
 #site_header{
     width: 100%;
     height: 120px;
-    background-color: var(--bg-body-color);
+    background-color: white;
+    margin-bottom: 5rem;
 }
 
 .logo{
@@ -46,15 +46,17 @@ body{
 /*main*/
 
 main{
+    border-radius: 0.5rem;
     width: 60%;
     margin: auto;
-    background-color: var(--bg-body-color);
+    background-color: white;
 }
 
 /*buttons*/
 
 #add_box{
-    border-bottom: 3px solid var(--add-section-color);
+    padding: 1rem 2rem;
+    border-bottom: 2px solid var(--add-section-color);
 }
 
 #add_task{
@@ -64,6 +66,7 @@ main{
     font-size: 15px;
     border: none;
     border-radius: 6px;
+    color: white;
 }
 
 #add_section{
@@ -75,3 +78,61 @@ main{
     border-radius: 6px;
     color: var(--add-section-color);
 }
+
+/*spunte task*/
+
+.circle_v{
+    display: inline-block;
+    padding: 2px;
+    width: 0.7rem;
+    height: 0.7rem;
+    border: 2px lightgreen solid;
+    border-radius: 50%;
+    color: lightgreen;
+    font-size: 15px;
+    margin-right: 5px;
+}
+
+.text_v{
+    display: inline-block;
+    line-height: 0.7rem;
+    vertical-align: middle;
+}
+
+.circle_x{
+    display: inline-block;
+    padding: 2px;
+    width: 0.8rem;
+    height: 0.8rem;
+    border: 2px lightcoral solid;
+    border-radius: 50%;
+    color: lightcoral;
+    font-size: 15px;
+}
+
+/*mittenti*/
+
+.editorial{
+    font-size: 12px;
+    background-color: var(--button-editorial-color);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: #Ffffff;
+}
+
+/*new task section*/
+
+.tasks{
+    padding: 4rem;
+}
+
+.section_title{
+    font-size: 25px;
+}
+
+
+
+
+
+
+
