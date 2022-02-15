@@ -120,7 +120,31 @@ main{
     color: #Ffffff;
 }
 
-/*new task section*/
+.q1_goals{
+    font-size: 12px;
+    background-color: var(--button-q1-goal-color);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.recluting{
+    font-size: 12px;
+    background-color: var(--button-recruiting-color);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: white;
+}
+
+.mobile{
+    font-size: 12px;
+    background-color: var(--button-mobile-color);
+    padding: 0.4rem;
+    border-radius: 10px;
+    color: white;
+}
+
+/*task section*/
 
 .tasks{
     padding: 4rem;
@@ -129,6 +153,17 @@ main{
 .section_title{
     font-size: 25px;
 }
+
+.task_section{
+    
+}
+
+.task_row{
+    margin-bottom: 1rem;
+}
+
+
+
 
 
 
